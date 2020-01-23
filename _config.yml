@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Joshua Tracy"
-  avatar           : # /images/avatar.jpg"
+  avatar           : "/images/avatar.jpg"
   bio              : " I have 4 years of experience in networking and IT infrastrucutre to include engineering solutions in AWS."
   location         : "Florida"
   email            :
