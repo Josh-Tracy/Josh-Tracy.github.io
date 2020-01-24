@@ -4,6 +4,7 @@ permalink: /experience/
 header:
   image: "/images/banner.png"
 ---
+[Download My Resume!](/assets/Joshua_Tracy_Resume.pdf){: .btn .btn--success}
 
 ### Enterprise Network Engineer -- September 2019 - Present
 {: style="color:DodgerBlue;"}
