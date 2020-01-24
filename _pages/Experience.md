@@ -16,7 +16,7 @@ Some of my responsibilities and projects included:
 *  Part of DevOps team responsible for implementing a PaaS solution using Amazon Web Services – EC2, S3, Git Lab, and Ansible automation.
 *  Manage the on-premise developer network using Cisco ACI and Nexus switches. 
 *  Work with vendors, the Government, carriers and technical staff on implementing new network solutions, optimization, and ongoing management.
-{: style="color:black; font-size: 80%; text-align: center;"}
+{: style="color:black; font-size: 80%;"}
 
 ### Enterprise Network Administrator -- September 2018 - September 2019
 {: style="color:DodgerBlue;"}
@@ -29,3 +29,15 @@ While working as a Network Administrator I had the unique oppurtunity to help de
 * Upgrade Cisco device firmware and operating systems.
 * Monitor the enterprise network via Solarwinds 24/7 for network device and transport outages around the globe. 
 {: style="color:black; font-size: 80%;"}
+
+### IT Helpdesk Technician -- February 2018 - July 2018
+{: style="color:DodgerBlue;"}
+#### Quiet Professionals -- Tampa, FL
+{: style="color:DodgerBlue;"}
+Part of the IT helpdesk in an enterprise serving more than 70,000 customers, taking an average of 50 calls a day.
+* Incident manager on shift responsible for triaging high priority / emergency incidents and outages, escalating them to proper technical leads within the enterprise. 
+* Interface directly with supported end-users to provide hardware, software, network, and application problem resolution. 
+* Modify / create and troubleshoot user accounts in Active Directory, submit changes and trouble tickets via Remedy ticketing system. 
+* Serve as the initial point of contact for resolution of desktop/mobile/and laptop related issues in a 56,000+ customer enterprise.
+{: style="color:black; font-size: 80%;"} 
+
