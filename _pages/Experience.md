@@ -19,10 +19,13 @@ Some of my responsibilities and projects included:
 {: style="color:black; font-size: 80%; text-align: center;"}
 
 ### Enterprise Network Administrator -- September 2018 - September 2019
+{: style="color:DodgerBlue;"}
 #### Atlantic Digital -- Tampa, FL
+{: style="color:DodgerBlue;"}
+While working as a Network Administrator I had the unique oppurtunity to help deliver initial configurations for customers router and switches based on their requirments. I supported a large number of customers across the globe troubleshooting DMVPN configurations, EIGRP, DHCP, VLANS, and other routing and switching issues. 
 * Provide Tier 1 / 2 support for remote sites located around the globe. Troubleshooting includes router, switch, and ASA configurations and KG-250 encryption devices. 
 * Troubleshoot issues relating to DMVPN, EIGRP, DHCP, VLANs, and ACLs.
 * Implement approved configurations changes on the LAN/WAN to include subnet size modifications, Cisco VOIP phone configurations, and ACL modifications.  
 * Upgrade Cisco device firmware and operating systems.
 * Monitor the enterprise network via Solarwinds 24/7 for network device and transport outages around the globe. 
-{: style="color:gray; font-size: 80%; text-align: center;"}
+{: style="color:black; font-size: 80%; text-align: center;"}
