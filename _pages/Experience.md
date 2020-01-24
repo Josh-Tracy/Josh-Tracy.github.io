@@ -28,4 +28,4 @@ While working as a Network Administrator I had the unique oppurtunity to help de
 * Implement approved configurations changes on the LAN/WAN to include subnet size modifications, Cisco VOIP phone configurations, and ACL modifications.  
 * Upgrade Cisco device firmware and operating systems.
 * Monitor the enterprise network via Solarwinds 24/7 for network device and transport outages around the globe. 
-{: style="color:black; font-size: 80%; text-align: center;"}
+{: style="color:black; font-size: 80%;"}
