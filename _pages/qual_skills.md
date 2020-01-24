@@ -6,6 +6,7 @@ header:
 ---
 
 <a href="/assets/Joshua_Tracy_Resume.pdf" class="btn--success">Download My Resume!</a>
+[Download My Resume!](#link){: .btn .btn--success}
 
 ## Skills
 {: style="color:DodgerBlue;"}
