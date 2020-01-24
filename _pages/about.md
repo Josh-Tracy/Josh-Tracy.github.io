@@ -4,6 +4,7 @@ permalink: /about/
 header:
   image: "/images/banner.png"
 ---
+[Download My Resume!](/assets/Joshua_Tracy_Resume.pdf){: .btn .btn--success}
 
 I am a network engineer who excels at configuring networks in large environments. I have 4 years of experience working as a team to configure and troubleshoot large enterprise networks.
 
