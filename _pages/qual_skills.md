@@ -33,6 +33,16 @@ header:
 {: refdef}
 
 ## Certifications
+{: style="color:DodgerBlue;"}
+
+* CCNP Route & Switch
+* CCNA Security
+* CCDA
+* Amazon Web Services Solutions Architect Associate (AWS)
+* CompTIA Security+
+* CompTIA Project+
+* CompTIA Network+
+* CompTIA A+
 
 ## Education
 
