@@ -5,6 +5,8 @@ header:
   image: "/images/banner.png"
 ---
 
-{:refdef: style="text-align: center;"}
-![My Image]({{ site.baseimg }}/images/Ansible.png)
+
+test test test 
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/Ansible.jpg)
 {: refdef}
