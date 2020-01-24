@@ -24,3 +24,8 @@ header:
 {:style="clear: left"}
 {: refdef}
 
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/linux.png){:height="100px" width="100px"}{: .align-left} Handy in Linux with experience on Ubuntu and RHEL 7 systems.   
+{:style="clear: left"}
+{: refdef}
+
