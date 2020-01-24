@@ -19,3 +19,8 @@ header:
 {:style="clear: left"}
 {: refdef}
 
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/amazon_aws.png){:height="100px" width="100px"}{: .align-left} Experience working in AWS environments with EC2, Route53, S3, etc. building a PaaS utilizing Ansible to configure Cloud Formation.  
+{:style="clear: left"}
+{: refdef}
+
