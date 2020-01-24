@@ -4,6 +4,9 @@ main:
     url: /about/
   - title: "Experience"
     url: /experience/
+  - title: "Qualifications / Skills"
+    url: /qual_skills/
+
 
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
