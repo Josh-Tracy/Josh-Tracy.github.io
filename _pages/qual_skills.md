@@ -5,7 +5,7 @@ header:
   image: "/images/banner.png"
 ---
 
-[Download My Resume!](/assets/Joshua_Tracy_Resume.pdf){: .btn}
+[Download My Resume!](/assets/Joshua_Tracy_Resume.pdf){: .btn .btn--success}
 
 ## Skills
 {: style="color:DodgerBlue;"}
