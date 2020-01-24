@@ -53,6 +53,7 @@ Part of the IT helpdesk in an enterprise serving more than 70,000 customers, tak
 ### Aircraft Electrical and Environmental Systems Technician -- September 2010 - September 2016
 {: style="color:DodgerBlue;"}
 #### United States Air Force
+{: style="color:DodgerBlue;"}
 * Troubleshoot, inspect, repair, and maintain over 15 different electrical and environmental systems on 3 different aircraft. 
 * Test various aircraft parts to ensure proper specifications are met. 
 * Utilize documentation, wiring diagrams, and schematics to complete tasks and troubleshoot.
