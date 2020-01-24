@@ -138,6 +138,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/joshua-tracy/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:

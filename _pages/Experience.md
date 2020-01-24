@@ -38,6 +38,24 @@ Part of the IT helpdesk in an enterprise serving more than 70,000 customers, tak
 * Incident manager on shift responsible for triaging high priority / emergency incidents and outages, escalating them to proper technical leads within the enterprise. 
 * Interface directly with supported end-users to provide hardware, software, network, and application problem resolution. 
 * Modify / create and troubleshoot user accounts in Active Directory, submit changes and trouble tickets via Remedy ticketing system. 
-* Serve as the initial point of contact for resolution of desktop/mobile/and laptop related issues in a 56,000+ customer enterprise.
+* Serve as the initial point of contact for resolution of desktop/mobile/and laptop related issues in a 70,000+ customer enterprise.
 {: style="color:black; font-size: 80%;"} 
+
+### Cyber Systems Operations Journeyman -- September 2016 - September 2019
+{: style="color:DodgerBlue;"}
+#### 290TH JCSS Florida Air National Guard -- Tampa, FL
+{: style="color:DodgerBlue;"}
+* Install, configure, and operate NIPR and SIPR networks and communications satellites in response to state emergencies and federal needs. 
+* Implement and maintain a mobile COTS LAN consisting of Cisco routers, switches, ESXi hosts, and VoIP phones. 
+* Manage system account using group policy objects and remote management.
+{: style="color:black; font-size: 80%;"}
+
+### Aircraft Electrical and Environmental Systems Technician -- September 2010 - September 2016
+{: style="color:DodgerBlue;"}
+#### United States Air Force
+* Troubleshoot, inspect, repair, and maintain over 15 different electrical and environmental systems on 3 different aircraft. 
+* Test various aircraft parts to ensure proper specifications are met. 
+* Utilize documentation, wiring diagrams, and schematics to complete tasks and troubleshoot.
+{: style="color:black; font-size: 80%;"}
+
 
