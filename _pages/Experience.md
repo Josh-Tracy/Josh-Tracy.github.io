@@ -6,5 +6,10 @@ header:
 ---
 
 ## Enterprise Network Engineer -- September 2019 - Present
-### Atlantic Digital / United States Special Operations Command -- Tampa, FL
-* Part of the SOCOM Innovations team responsible for research and implementation of new technologies within the SOCOM IT infrastructure. 
+### Atlantic Digital -- Tampa, FL 
+<figure class="third">
+	<img src="/images/Ansible.png">
+	<img src="/images/logo-rhel.png">
+	<img src="/images/amazon_aws.png">
+	<figcaption>Caption describing these three images.</figcaption>
+</figure>
