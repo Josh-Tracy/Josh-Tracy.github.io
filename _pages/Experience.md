@@ -14,7 +14,7 @@ Some of my responsibilities and projects included:
 *  Part of DevOps team responsible for implementing a PaaS solution using Amazon Web Services – EC2, S3, Git Lab, and Ansible automation.
 *  Manage the on-premise developer network using Cisco ACI and Nexus switches. 
 *  Work with vendors, the Government, carriers and technical staff on implementing new network solutions, optimization, and ongoing management.
-{: style="color:gray; font-size: 80%; text-align: center;"}
+{: style="color:mint; font-size: 80%; text-align: center;"}
 
 ### Enterprise Network Administrator -- September 2018 - September 2019
 #### Atlantic Digital -- Tampa, FL
