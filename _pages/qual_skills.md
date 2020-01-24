@@ -10,4 +10,4 @@ test test test
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/Ansible.png)
 {: refdef}
-test
+testt
