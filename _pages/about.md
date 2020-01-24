@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/bannger.png"
+  image: "/images/banner.png"
 ---
 
 I am a network engineer who excels at configuring networks in large environments. I have 4 years of experience working as a team to configure and troubleshoot large enterprise networks.
