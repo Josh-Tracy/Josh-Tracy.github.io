@@ -45,5 +45,10 @@ header:
 * CompTIA A+
 
 ## Education
+{: style="color:DodgerBlue;"}
 
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/wgu.png){:height="100px" width="100px"}{: .align-left} BS Degree: Network Operations and Security
+{:style="clear: left"}
+{: refdef}
 
