@@ -9,5 +9,5 @@ header:
 
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/Ansible_logo.svg.jpg){:height="100px" width="100px"}{: .align-left}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Experience writing Ansible playbooks to deploy applications and configure devices.
-{:style="clear: left"}
+{:style="clear: center"}
 {: refdef}
