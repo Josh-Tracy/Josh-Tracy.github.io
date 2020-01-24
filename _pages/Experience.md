@@ -5,4 +5,5 @@ header:
   image: "/images/banner.png"
 ---
 
-# Enterprise Network Engineer
+## Enterprise Network Engineer -- September 2019 - Present
+### Atlantic Digital / United States Special Operations Command -- Tampa, FL
