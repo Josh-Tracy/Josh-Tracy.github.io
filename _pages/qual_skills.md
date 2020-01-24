@@ -8,6 +8,6 @@ header:
 
 test test test 
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/Ansible_logo.svg.jpg =150x150)
+![My Image]({{ site.baseimg }}/images/Ansible_logo.svg.jpg){:height="36px" width="36px"}
 {: refdef}
 testt
