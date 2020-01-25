@@ -46,7 +46,7 @@ header:
 
 ## Education
 {: style="color:DodgerBlue;"}
-#### Wester Governors University
+#### Western Governors University
 
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/wgu.png){:height="100px" width="100px"}{: .align-left} B.A.S. Degree: Network Operations and Security
