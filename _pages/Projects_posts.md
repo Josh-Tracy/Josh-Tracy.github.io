@@ -5,6 +5,7 @@ header:
   image: "/images/banner.png"
 ---
 
+# Networking Projects and Posts
 
 
 {% include base_path %}
