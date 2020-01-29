@@ -54,6 +54,7 @@ Router1 ansible_host=192.168.56.130   # Defined by naming convention
 router1.example.com                   # Define by hostname
 </pre>
 {: style="color:black; font-size: 70%;"}
+{: .notice--primary}
 
 Ansible also recommends specifying your host groups connection and credential information in the host file in the form of [cisco:var] like below. Here we need to identify the information Ansible will use when attempting to connect to the device using SSH:
 {: style="color:black; font-size: 80%;"}
