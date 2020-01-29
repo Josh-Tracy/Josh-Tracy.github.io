@@ -76,8 +76,10 @@ ansible_become_password=password # Enable password
 
 Once our inventory is defined with the hosts we want to run Ansible against, we have to create a playbook comprised of tasks to complete.
 For this example we will be configuring a banner on a Cisco IOS device.
+{: style="color:black; font-size: 80%;"}
 
 To begin, I  create a banner_playbook.yml file under the playbooks directory
+{: style="color:black; font-size: 80%;"}
 <pre>
 ---                                     #YAML files are designated by the 3 --- dashes
 - name: Configure motd and banner       # Purpose of the playbook
@@ -121,3 +123,18 @@ To begin, I  create a banner_playbook.yml file under the playbooks directory
         state: present
 </pre>
 {: style="color:gray; font-size: 70%;"}
+
+#### Key points about the playbook
+* YAML format is white space sensitive
+* This playbook includes 3 modules, one for Cisco IOS, IOSXR, and NXOS
+* Use # signs to comment out lines you want Ansible to ignore
+* The banner text can be pulled from a variable in another file or a document in another directory as well
+{: style="color:black; font-size: 80%;"}
+
+### Running the playbook
+
+With our hosts, host connection, & login informaiton defined and our banner configuration playbook written we can run the playbook.
+{: style="color:black; font-size: 80%;"}
+
+To run a playbook issue <b>ansible-playbook -i inventory/hosts playbook/banner_configuration.yml</b>
+{: style="color:black; font-size: 80%;"}
