@@ -44,6 +44,27 @@ ansible_project/              # Top level ansible folder
     ansible.cfg               # Site specific config
 </pre>
 
+First we have to define our host that we want to configure in a hosts file. You can name it whatever you want. We define a group of hosts disgnated in brackets such as [cisco]. This allows us to call multiple hosts at once by defining one group in our playbook. We can define hosts by IP, by "Router1 ansible_host=192.168.56.130", or by hostname if DNS is configured. Example:
+
+<pre>
+[cisco]                               # Host Group
+192.168.56.130                        # Host defined by IP
+Router1 ansible_host=192.168.56.130   # Defined by naming convention
+router1.example.com                   # Define by hostname
+</pre>
+
+Ansible also recommends specifying your host groups connection and credential information in the host file in the form of [cisco:var] like below. Here we need to identify the information Ansible will use when attempting to connect to the device using SSH:
+
+<pre>
+[cisco:vars]                     # Host group variables 
+ansible_network_os=ios           # The type of Operating System
+ansible_ssh_user=admin           # SSH Username
+ansible_password=password        # SSH Password
+ansible_become=yes               # Permissions upgrade 'yes' or 'no'
+ansible_become_method=enable     # Enter enable mode
+ansible_become_password=password # Enable password
+</pre>
+
 
 
 
