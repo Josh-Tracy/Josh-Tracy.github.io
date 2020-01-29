@@ -136,5 +136,9 @@ To begin, I  create a banner_playbook.yml file under the playbooks directory
 With our hosts, host connection, & login informaiton defined and our banner configuration playbook written we can run the playbook.
 {: style="color:black; font-size: 80%;"}
 
-To run a playbook issue <b>ansible-playbook -i inventory/hosts playbook/banner_configuration.yml</b>
+To run a playbook issue from the main Ansible dir. <b>ansible-playbook -i inventory/hosts playbook/banner_configuration.yml</b>
+{: style="color:black; font-size: 80%;"}
+* ansible-playbook; The command used to run a playbook
+* -i option is used to define the hosts file location if not set in ansible.cfg
+* playbook/ is used to define the location of the playbook if we are not in the playbooks dir.
 {: style="color:black; font-size: 80%;"}
