@@ -29,6 +29,7 @@ Due to Ansible's ability to push configuration changes using SSH, Ansible can be
 ### Preparing Ansible to Configure a Cisco Router
 
 Before we can begin we will have to set up our Ansible directory. The recommonded best practice for setting up the directory structure can be found in Ansible's docs: <a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html">Best Practices</a> however for this post, our directory is much simpler. I prefer to set up my directory like the one below:
+{: style="color:black; font-size: 80%;"}
 
 <pre>
 ansible_project/              # Top level ansible folder
@@ -43,9 +44,10 @@ ansible_project/              # Top level ansible folder
         plabook.yml           # Example playbook
     ansible.cfg               # Site specific config
 </pre>
+{: style="color:black; font-size: 70%;"}
 
 First we have to define our host that we want to configure in a hosts file. You can name it whatever you want. We define a group of hosts disgnated in brackets such as [cisco]. This allows us to call multiple hosts at once by defining one group in our playbook. We can define hosts by IP, by "Router1 ansible_host=192.168.56.130", or by hostname if DNS is configured. Example:
-{: style="color:black; font-size: 70%;"}
+{: style="color:black; font-size: 80%;"}
 
 <pre>
 [cisco]                               # Host Group
