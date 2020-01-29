@@ -59,7 +59,7 @@ router1.example.com                   # Define by hostname
 
 
 Ansible also recommends specifying your host groups connection and credential information in the host file in the form of [cisco:var] like below. Here we need to identify the information Ansible will use when attempting to connect to the device using SSH:
-{: style="color:gray; font-size: 80%;"}
+{: style="color:black; font-size: 80%;"}
 
 <pre>
 [cisco:vars]                     # Host group variables 
@@ -70,8 +70,54 @@ ansible_become=yes               # Permissions upgrade 'yes' or 'no'
 ansible_become_method=enable     # Enter enable mode
 ansible_become_password=password # Enable password
 </pre>
-{: style="color:gray; font-size: 80%;"}
+{: style="color:gray; font-size: 70%;"}
 
+### Writing a Playbook to Configure a Device
 
+Once our inventory is defined with the hosts we want to run Ansible against, we have to create a playbook comprised of tasks to complete.
+For this example we will be configuring a banner on a Cisco IOS device.
 
+To begin, I  create a banner_playbook.yml file under the playbooks directory
+<pre>
+---
+- name: Configure motd and banner
+  hosts: cisco
+  connection: network_cli
+  gather_facts: no
 
+  tasks:
+
+# ios_banner module used to define banners and messages of the day on Cisco IOS devices
+# Banner choices: login / motd / exec / incomin / sip-ppp
+# text can be defined here or as a variable called from another place.
+    - name: CONFIGURE LOGIN BANNER
+      ios_banner:
+        banner: login
+        text: | 
+          Warning: Authorized employees only. 
+          All others will be in trouble.
+        state: present
+
+# iosxr_banner module used for IOSXR Cisco Devices
+# Banner choices: login / motd
+    - name: configure the login banner
+      iosxr_banner:
+        banner: login
+        text: |
+          this is my login banner
+          that contains a multiline
+          string
+        state: present
+
+# nxos_banner module for Cisco NXOS devices
+# Banner choices: exce / motd
+    - name: configure the exec banner
+      nxos_banner:
+        banner: exec
+        text: |
+          this is my exec banner
+          that contains a multiline
+          string
+        state: present
+</pre>
+{: style="color:gray; font-size: 70%;"}
