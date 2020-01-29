@@ -79,24 +79,24 @@ For this example we will be configuring a banner on a Cisco IOS device.
 
 To begin, I  create a banner_playbook.yml file under the playbooks directory
 <pre>
----
-- name: Configure motd and banner
-  hosts: cisco
-  connection: network_cli
-  gather_facts: no
+---                                     #YAML files are designated by the 3 --- dashes
+- name: Configure motd and banner       # Purpose of the playbook
+  hosts: cisco                          # Define the group of [hosts] that exist in the inventory
+  connection: network_cli               # Connection type- network_cli for IOS devices
+  gather_facts: no    
 
-  tasks:
+  tasks:                                # Anything below this point are tasks to be run
 
 # ios_banner module used to define banners and messages of the day on Cisco IOS devices
 # Banner choices: login / motd / exec / incomin / sip-ppp
 # text can be defined here or as a variable called from another place.
     - name: CONFIGURE LOGIN BANNER
-      ios_banner:
-        banner: login
-        text: | 
+      ios_banner:                                 # The name of the module to use
+        banner: login                             # The type of banner such as login or exec
+        text: |                                   # The text to be used for the banner
           Warning: Authorized employees only. 
           All others will be in trouble.
-        state: present
+        state: present                            # Current existential state of the banner
 
 # iosxr_banner module used for IOSXR Cisco Devices
 # Banner choices: login / motd
