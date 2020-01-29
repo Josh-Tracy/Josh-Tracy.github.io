@@ -1,8 +1,8 @@
 ---
 title: "Projects / Posts"
 permalink: /Projects_posts/
-header:
----
+
+----
 
 ## Networking Projects and Posts
 
