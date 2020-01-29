@@ -44,7 +44,7 @@ ansible_project/              # Top level ansible folder
         plabook.yml           # Example playbook
     ansible.cfg               # Site specific config
 </pre>
-{: style="color:black; font-size: 70%;"}
+{: style="color:gray; font-size: 70%;"}
 
 First we have to define our host that we want to configure in a hosts file. You can name it whatever you want. We define a group of hosts disgnated in brackets such as [cisco]. This allows us to call multiple hosts at once by defining one group in our playbook. We can define hosts by IP, by "Router1 ansible_host=192.168.56.130", or by hostname if DNS is configured. Example:
 {: style="color:black; font-size: 80%;"}
