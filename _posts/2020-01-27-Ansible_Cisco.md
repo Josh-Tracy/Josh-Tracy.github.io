@@ -28,10 +28,9 @@ Due to Ansible's ability to push configuration changes using SSH, Ansible can be
 
 ### Preparing Ansible to Configure a Cisco Router
 
-Before we can begin we will have to set up our Ansible directory. The recommonded best practice for setting up the directory structure can be found in Ansible's docs: https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html however for this post, our directory is much simplier. I prefer to set up my directory like the one below:
+Before we can begin we will have to set up our Ansible directory. The recommonded best practice for setting up the directory structure can be found in Ansible's docs: <a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html">Best Practices</a> however for this post, our directory is much simpler. I prefer to set up my directory like the one below:
 
 <pre>
-"
 ansible_project/              # Top level ansible folder
     group_vars/               # Variables to be called from playbooks
     roles/                    # All roles
@@ -43,7 +42,6 @@ ansible_project/              # Top level ansible folder
     playbooks/                # All playbooks below here
         plabook.yml           # Example playbook
     ansible.cfg               # Site specific config
-"
 </pre>
 
 
