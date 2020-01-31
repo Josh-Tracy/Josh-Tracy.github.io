@@ -1,5 +1,5 @@
 ---
-title: "boto3 and botocore are required for this module" error in Ansible on RHEL 7.6
+title: "'boto3 and botocore are required for this module' error in Ansible on RHEL 7.6"
 date: 2020-01-31
 tags: [Networking, Automation, AWS, virtualenv, python, boto3, botocore, Ansible, Information Technology, RHEL 7]
 #header:
