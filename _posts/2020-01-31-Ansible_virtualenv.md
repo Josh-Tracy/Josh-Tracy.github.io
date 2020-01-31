@@ -59,7 +59,7 @@ $ mkdir ~virtualenvironment
 {: style="color:black; font-size: 80%;"}
 
 <pre>
-v$ irtualenv ~/virtualenvironment/project
+$ virtualenv ~/virtualenvironment/project
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
@@ -83,7 +83,7 @@ $ sudo pip install botocore
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
-* Now I open Ansible inventory host file and define the path to the python interperter:
+* Now I open my Ansible inventory host file and define the path to the python interperter:
 {: style="color:black; font-size: 80%;"}
 
 <pre>
@@ -95,5 +95,5 @@ It should look like this:
 {: style="color:black; font-size: 80%;"}
 
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/python_path.png)
+![My Image]({{ site.baseimg }}/images/python_path.PNG)
 {: refdef}
