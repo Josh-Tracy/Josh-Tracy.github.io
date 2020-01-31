@@ -83,3 +83,17 @@ $ sudo pip install botocore
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
+* Now I open Ansible inventory host file and define the path to the python interperter:
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+localhost ansible_connection=local ansible_python_interpreter=/home/bprice/virtualenvironment/aws/bin/python2.7
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
+It should look like this:
+{: style="color:black; font-size: 80%;"}
+
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/python_path.png)
+{: refdef}
