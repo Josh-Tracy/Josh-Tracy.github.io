@@ -32,9 +32,9 @@ botocore==1.13.49
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
-### The Fix
+## The Fix
 
-#### Virtualenv to the rescue!
+### Virtualenv to the rescue!
 
 Virtualenv allows you to create a virtual environment with Python installed. You can create multiple, one for each project, side-byside. This allows project environment variables to remain seperate.
 {: style="color:black; font-size: 80%;"}
