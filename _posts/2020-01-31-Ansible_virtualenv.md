@@ -1,5 +1,5 @@
 ---
-title: "boto3 and botocore are required for this module error in Ansible on RHEL 7.6"
+title: "boto3 and botocore are required for this module" error in Ansible on RHEL 7.6
 date: 2020-01-31
 tags: [Networking, Automation, AWS, virtualenv, python, boto3, botocore, Ansible, Information Technology, RHEL 7]
 #header:
@@ -35,3 +35,51 @@ botocore==1.13.49
 ### The Fix
 
 #### Virtualenv to the rescue!
+
+Virtualenv allows you to create a virtual environment with Python installed. You can create multiple, one for each project, side-byside. This allows project environment variables to remain seperate.
+{: style="color:black; font-size: 80%;"}
+
+* I installed virtualenv with:
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+$ sudo pip install virtualenv
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
+* Create a directory:
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+$ mkdir ~virtualenvironment
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
+* Create a folder in the directory for your project
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+v$ irtualenv ~/virtualenvironment/project
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
+* cd into ~/virtualenvironment/project/bin and run:
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+source activate
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
+* You will see (project) before the shell prompt if it worked.
+{: style="color:black; font-size: 80%;"}
+
+* install boto3 and botocore while in the new environment
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+$ sudo pip install boto3
+$ sudo pip install botocore
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
