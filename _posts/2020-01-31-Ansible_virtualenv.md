@@ -87,7 +87,7 @@ $ sudo pip install botocore
 {: style="color:black; font-size: 80%;"}
 
 <pre>
-localhost ansible_connection=local ansible_python_interpreter=/home/bprice/virtualenvironment/aws/bin/python2.7
+localhost ansible_connection=local ansible_python_interpreter=/home/jtracy/virtualenvironment/aws/bin/python2.7
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
