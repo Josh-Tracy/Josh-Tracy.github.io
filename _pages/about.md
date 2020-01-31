@@ -4,7 +4,7 @@ permalink: /about/
 header:
   image: "/images/banner.png"
 ---
-[Download My Resume!](/assets/Joshua_Tracy_Resume.pdf){: .btn .btn--success}
+
 
 # Who am I?
 

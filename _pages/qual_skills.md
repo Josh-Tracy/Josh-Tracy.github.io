@@ -6,7 +6,6 @@ header:
 ---
 
 
-[Download My Resume!](/assets/Joshua_Tracy_Resume.pdf){: .btn .btn--success}
 
 ## Skills
 {: style="color:DodgerBlue;"}
