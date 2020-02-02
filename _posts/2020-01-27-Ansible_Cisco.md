@@ -142,3 +142,10 @@ To run a playbook issue from the main Ansible dir. <b>ansible-playbook -i invent
 * -i option is used to define the hosts file location if not set in ansible.cfg
 * playbook/ is used to define the location of the playbook if we are not in the playbooks dir.
 {: style="color:black; font-size: 80%;"}
+
+The output should look similiar to this minus the purple text I recieved due to outdated versions.
+{: style="color:black; font-size: 80%;"}
+
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/ansible_banner.png)
+{: refdef}
