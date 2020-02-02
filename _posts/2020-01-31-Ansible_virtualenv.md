@@ -8,7 +8,7 @@ excerpt: "Networking, Automation, AWS, virtualenv, python, boto3, botocore, Ansi
 ---
 ### Fixing the error "boto3 and botocore are required for this module" when running an Ansible playbook on a RHEL 7 server
 
-Today I was runng into issues on my RHEL 7 server when trying to deploy an Ansible playbook. After a couple minutes of consulting with the Stack Overflow gods, I decided to run a yum update on my server.
+Today I was runng into issues on my RHEL 7 server when trying to deploy CloudFormation on AWS using an Ansible playbook. After a couple minutes of consulting with the Stack Overflow gods, I decided to run a yum update on my server.
 {: style="color:black; font-size: 80%;"}
 
 I then proceeded to run my playbok <b>WHICH RAN PERFECTLY EVERYTIME</b> for the last week, only this time I was met with this output:
