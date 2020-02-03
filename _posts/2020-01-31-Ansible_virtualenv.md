@@ -78,8 +78,8 @@ source activate
 {: style="color:black; font-size: 80%;"}
 
 <pre>
-$ sudo pip install boto3
-$ sudo pip install botocore
+$ pip install boto3
+$ pip install botocore
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
