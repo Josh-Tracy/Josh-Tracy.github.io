@@ -15,7 +15,7 @@ After  hours of banging my head against the wall I finally worked out all the bu
 
 ## Key Notes
 ### Interface mappings
-The reason this took so long as ultimately due to the port mappings of the Juniper image and GNS3. The ports map like such:
+The reason this took so long was ultimately due to the port mappings of the Juniper image and GNS3. The ports map like such:
 <pre>
 ge-0/0/0 = Ethernet 2
 
@@ -27,6 +27,8 @@ ge-0/0/3 = Ethernet 5
 
 etc...
 </pre>
+{: style="color:gray; font-size: 70%;"}
+
 So, per the image below, <b>e3 = ge-0/0/1</b>
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/jun_interface.PNG)
@@ -55,8 +57,10 @@ router ospf 1
  network 8.8.9.2 0.0.0.0 area 0
  network 8.8.12.1 0.0.0.0 area 0
  </pre>
+ {: style="color:gray; font-size: 70%;"}
 
  ### Juniper configuration
+
  <pre>
  }
 interfaces {
@@ -89,6 +93,7 @@ protocols {
     }
 }
 </pre>
+{: style="color:gray; font-size: 70%;"}
 
 I set up a 9.9.9.0/24 network on the Juniper and added it to the OSPF area 0 as well. You can see on the Cisco device's routing table I now have a learned route to the 9.9.9.0/24 network
 {:refdef: style="text-align: left;"}
