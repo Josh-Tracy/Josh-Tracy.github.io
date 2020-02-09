@@ -29,7 +29,7 @@ etc...
 </pre>
 So, per the image below, <b>e3 = ge-0/0/1</b>
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/jun_interface.png)
+![My Image]({{ site.baseimg }}/images/jun_interface.PNG)
 {: refdef}
 ### Process ID's
 While Cisco uses a process ID when configuring OSPF; <b> router ospf PROCESS_ID </b>, Junpier does not. If you want to configure a different process ID for Juniper to partake in within a hybrid environment, you must configure a routing instance and configure OSPF within that instance. That is beyond the scope of this write up.
@@ -37,5 +37,60 @@ While Cisco uses a process ID when configuring OSPF; <b> router ospf PROCESS_ID 
 ## The Configuration
 Below is the topology I used to connect my Juniper VMX device into my Cisco 7200 topology using OSPF 1 in area 0:
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/top.png)
+![My Image]({{ site.baseimg }}/images/top.PNG)
+{: refdef}
+
+OSPF configuration on Cisco is straightforward. Create the OSPF instance and advertise any networks you wish to propogate. For Juniper, after you have added your addresses to the interfaces, create an OSPF protocol instance, and assign the interfaces you want to propogate. 
+
+### Cisco OSPF Configuration
+<pre>
+interface FastEthernet1/1
+ ip address 8.8.12.1 255.255.255.0
+ duplex auto
+ speed auto
+
+router ospf 1
+ log-adjacency-changes
+ network 3.3.3.3 0.0.0.0 area 0
+ network 8.8.9.2 0.0.0.0 area 0
+ network 8.8.12.1 0.0.0.0 area 0
+ </pre>
+
+ ### Juniper configuration
+ <pre>
+ }
+interfaces {
+    ge-0/0/1 {
+        unit 0 {
+            family inet {
+                address 8.8.12.2/24;
+            }
+        }
+    }
+    ge-0/0/2 {
+        unit 0 {
+            family inet {
+                address 9.9.9.1/24;
+            }
+        }
+    }
+}
+routing-options {
+    static {
+        route 0.0.0.0/0 next-hop 8.8.12.1;
+    }
+}
+protocols {
+    ospf {
+        area 0.0.0.0 {
+            interface ge-0/0/1.0;
+            interface ge-0/0/2.0;
+        }
+    }
+}
+</pre>
+
+I set up a 9.9.9.0/24 network on the Juniper and added it to the OSPF area 0 as well. You can see on the Cisco device's routing table I now have a learned route to the 9.9.9.0/24 network
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/route_table.PNG)
 {: refdef}
