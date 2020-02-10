@@ -124,3 +124,15 @@ I set up a 9.9.9.0/24 network on the Juniper and added it to the OSPF area 0 as 
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/route_table.PNG)
 {: refdef}
+
+A <b>show ip ospf neighbor</b> on Cisco shows the neighborship:
+{: style="color:black; font-size: 80%;"}
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/ospf_nei.PNG)
+{: refdef}
+
+A <b>show route</b> from the Juniper CLI mode shows the route table and OSPF learned routes:
+{: style="color:black; font-size: 80%;"}
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/juniper_route.PNG)
+{: refdef}
