@@ -52,6 +52,12 @@ OSPF configuration on Cisco is straightforward. Create the OSPF instance and adv
 {: style="color:black; font-size: 80%;"}
 
 ### Cisco OSPF Configuration
+<b>(config)#int f1/1</b>
+<b>(config-if)#ip address 8.8.12.1 255.255.255.0</b>
+
+<b>(config)#router ospf 1</b>
+<b>(config-router)#network 8.8.12.1 0.0.0.0 area 0</b>
+
 <pre>
 interface FastEthernet1/1
  ip address 8.8.12.1 255.255.255.0
@@ -67,6 +73,10 @@ router ospf 1
  {: style="color:gray; font-size: 70%;"}
 
 ### Juniper OSPF configuration
+
+<b>[edit]</b>
+<b>set interfaces ge-0/0/1 unit 0 family inet address 8.8.12.2/24</b>
+<b>set protocols ospf area 0.0.0.0 interface ge-0/0/1</b>
 
  <pre>
  }
