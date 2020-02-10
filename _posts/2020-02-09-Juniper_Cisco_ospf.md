@@ -2,8 +2,8 @@
 title: "OSPF in GNS3 between Juniper-VMX & Cisco"
 date: 2020-01-31
 tags: [Networking, Cisco, Juniper, OSPF, routing, Information Technology]
-#header:
-#  image: "/images/Ansible_Cisco.png"
+header:
+  image: "/images/ospf_banner.png"
 excerpt: "Networking, Cisco, Juniper, OSPF, routing, Information Technology"
 ---
 # OSPF between Cisco and Juniper VMX device
