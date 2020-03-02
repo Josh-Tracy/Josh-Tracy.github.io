@@ -10,6 +10,7 @@ header:
 
 * <a href="#Playbooks"> Playbooks </a>
 * <a href="#Errors"> Errors </a>
+* <a href="#AnsibleVault"> Ansible Vault </a>
 
 
 <h3 id="Playbooks">Playbooks</h3>
@@ -44,3 +45,5 @@ fatal: [tower00.paas-govcloud.agilesof.org]: FAILED! => {"changed": false, "msg"
 
 FIX: Republish the meta-data for the content view subscribed to on the RedHat Satellite Server.
 {: style="color:black; font-size: 80%;"} 
+
+<h3 id="AnsibleVault">Ansible Vault</h3>
