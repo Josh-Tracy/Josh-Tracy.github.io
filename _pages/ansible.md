@@ -23,7 +23,7 @@ Main repository: <a href="https://github.com/Josh-Tracy/Admin-Scripts.git"> Admi
 Define the machines in the host inventory that you want to register. Modify the activation_key, satellite_org_id, satellite_katello_rpm, and satellite_url under group vars.
 {: style="color:black; font-size: 80%;"}
 
-<a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks/register.yml"> register.yml</a>
+Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks/register.yml"> register.yml</a>
 {: style="color:black; font-size: 80%;"}
 
 <h3 id="Errors">Errors</h3>
