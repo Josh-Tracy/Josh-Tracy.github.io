@@ -34,7 +34,8 @@ Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks
 {: style="color:black; font-size: 80%;"}
 
 <h3 id="Errors">Errors</h3>
-
+Requested Data Type Primary not Available
+{: style="color:DodgerBlue; font-size: 80%;"} 
 <pre>
 TASK [Install updates] *************************************************************************************************************************************************
 fatal: [tower00.paas-govcloud.agilesof.org]: FAILED! => {"changed": false, "msg": "Error: requested datatype primary not available\n", "rc": 1, "results": []}
