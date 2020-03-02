@@ -6,6 +6,8 @@ main:
     url: /experience/
   - title: "Qualifications / Skills"
     url: /qual_skills/
+  - title "Test"
+    url: /test/
 
 
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
