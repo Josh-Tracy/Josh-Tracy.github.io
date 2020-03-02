@@ -34,3 +34,12 @@ Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks
 {: style="color:black; font-size: 80%;"}
 
 <h3 id="Errors">Errors</h3>
+
+<pre>
+TASK [Install updates] *************************************************************************************************************************************************
+fatal: [tower00.paas-govcloud.agilesof.org]: FAILED! => {"changed": false, "msg": "Error: requested datatype primary not available\n", "rc": 1, "results": []}
+</pre>
+{: style="color:gray; font-size: 70%;"}
+
+FIX: Republish the meta-data for the content view subscribed to on the RedHat Satellite Server.
+{: style="color:black; font-size: 80%;"} 
