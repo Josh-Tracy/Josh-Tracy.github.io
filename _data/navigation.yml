@@ -8,7 +8,10 @@ main:
     url: /qual_skills/
   - title: "AWS Lessons Learned"
     url: /aws/
-
+  - title: "RedHat Lessons Learned"
+    url: /redhat/
+  - title: "Ansible Lessons Learned"
+    url: /ansible/
 
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
