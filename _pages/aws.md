@@ -1,6 +1,6 @@
 ---
-title: "Test"
-permalink: /test/
+title: "AWS Lessons Learned"
+permalink: /aws/
 header:
   image: "/images/banner.png"
 ---
