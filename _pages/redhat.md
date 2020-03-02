@@ -38,6 +38,9 @@ header:
 * /opt/rh/rh-sso7/root/usr/share/keycloak/standalone/log/server.log
 {: style="color:black; font-size: 80%;"}
 
+* Reboot server
+{: style="color:black; font-size: 80%;"}
+
 <h3 id="Satellite">Satellite</h3>
 
 <h3 id="IDM">IDM</h3>
