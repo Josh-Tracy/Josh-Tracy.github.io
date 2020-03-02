@@ -28,7 +28,7 @@ header:
 {: style="color:black; font-size: 80%;"}
 
 <pre>
-./add-user-keycloak.sh -r master -u <username> -p <password>
+./add-user-keycloak.sh -r master -u <"username"> -p <"password">
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
