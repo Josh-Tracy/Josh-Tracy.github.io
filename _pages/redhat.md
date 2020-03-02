@@ -16,21 +16,25 @@ header:
 <h3 id="SSO">Single Sign ON</h3>
 <h4> Create Initial Admin User using CLI </h4>
 {: style="color:DodgerBlue;"}
+
 * Navigate to keycloak-add-user script:
 {: style="color:black; font-size: 80%;"}
 <pre>
 /opt/rh/rh-sso7/root/usr/share/keycloak/standalone/configuration/keycloak-add-user.sh
 </pre>
 {: style="color:gray; font-size: 70%;"}
+
 * Run:
 {: style="color:black; font-size: 80%;"}
+
 <pre>
 ./add-user-keycloak.sh -r master -u <username> -p <password>
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
-<h4> SSO Log Location </h4>
+<h4>SSO Log Location</h4>
 {: style="color:DodgerBlue;"}
+
 * /opt/rh/rh-sso7/root/usr/share/keycloak/standalone/log/server.log
 {: style="color:black; font-size: 80%;"}
 
