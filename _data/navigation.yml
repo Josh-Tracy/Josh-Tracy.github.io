@@ -6,8 +6,8 @@ main:
     url: /experience/
   - title: "Qualifications / Skills"
     url: /qual_skills/
-  - title "Test"
-    url: /test/
+  - title: "AWS Lessons Learned"
+    url: /aws/
 
 
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
