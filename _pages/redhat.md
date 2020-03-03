@@ -8,14 +8,17 @@ header:
 
 ### Table Of Contents
 * <a href="#SSO"> Single Sign On </a>
+  * <a href="#admin"> Initial Admin creation from CLI </a>
+  * <a href="#logs"> SSO Logs </a>
 * <a href="#Satellite"> Satellite </a>
 * <a href="#IDM"> Identity Manager </a>
 * <a href="#Openshift"> Openshift </a>
 * <a href="#AnsibleTower"> Ansible Tower </a>
   * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
+  * <a href="#TowerErrors"> Tower Errors </a>
 
 <h3 id="SSO">Single Sign ON</h3>
-<h4> Create Initial Admin User using CLI </h4>
+<h4 id="admin"> Create Initial Admin User using CLI </h4>
 {: style="color:DodgerBlue;"}
 
 * Navigate to keycloak-add-user script:
@@ -33,7 +36,7 @@ header:
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
-<h4>SSO Log Location</h4>
+<h4 id="lofs">SSO Log Location</h4>
 {: style="color:DodgerBlue;"}
 
 * /opt/rh/rh-sso7/root/usr/share/keycloak/standalone/log/server.log
@@ -75,7 +78,7 @@ In Ansible Tower go to Projects -> Add
 * SCM URL: The URL of the repo you will clone from. If HTTPS:// is not an option or doesnt work, use SSH://<"user@repo"> like in the picture above.
 * Save
 {: style="color:black; font-size: 80%;"}
-<h4>Errors</h4>
+<h4 id="TowerErrors">Errors</h4>
 {: style="color:DodgerBlue; font-size: 80%;"} 
 "The Peers certificate issuer could not be recognized"
 {: style="color:red; font-size: 80%;"}
