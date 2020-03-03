@@ -48,3 +48,15 @@ header:
 <h3 id="Openshift">Openshift</h3>
 
 <h3 id="AnsibleTower">Ansible Tower</h3>
+<h4>Configure Project Runs from GitLab</h4>
+{: style="color:DodgerBlue;"}
+Configuring Ansible Tower to clone repos from a private GitLab server.
+
+1. In Ansible Tower Settings -> Credentials
+{: style="color:black; font-size: 80%;"}
+{:refdef: style="text-align: center;"}
+![My Image]({{ site.baseimg }}/images/towercreds.PNG)
+{: refdef}
+2. If GitLab is using SSH Key authentication <b>PREFFERED</b> paste the private key to the public key stored in GitLab under User Settings -> SSH Keys.
+  * Name
+  * Credential Type = "Source Control"
