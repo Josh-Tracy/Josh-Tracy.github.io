@@ -12,6 +12,7 @@ header:
 * <a href="#IDM"> Identity Manager </a>
 * <a href="#Openshift"> Openshift </a>
 * <a href="#AnsibleTower"> Ansible Tower </a>
+      * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
 
 <h3 id="SSO">Single Sign ON</h3>
 <h4> Create Initial Admin User using CLI </h4>
@@ -48,7 +49,7 @@ header:
 <h3 id="Openshift">Openshift</h3>
 
 <h3 id="AnsibleTower">Ansible Tower</h3>
-<h4>Configure Project Runs from GitLab</h4>
+<h4 id="AnsibleGit">Configure Project Runs from GitLab</h4>
 {: style="color:DodgerBlue;"}
 Configuring Ansible Tower to clone repos from a private GitLab server.
 
@@ -76,7 +77,7 @@ In Ansible Tower go to Projects -> Add
 {: style="color:black; font-size: 80%;"}
 <h4>Errors</h4>
 {: style="color:DodgerBlue; font-size: 80%;"} 
-"The Peers certificate issues could not be recognized"
+"The Peers certificate issuer could not be recognized"
 {: style="color:red; font-size: 80%;"}
 SSL Is not configured on GitLab. If GitLab is using a self signed cert:
 {: style="color:black; font-size: 80%;"}
