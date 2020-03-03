@@ -57,7 +57,7 @@ Configuring Ansible Tower to clone repos from a private GitLab server.
 {:refdef: style="text-align: center;"}
 ![My Image]({{ site.baseimg }}/images/towercreds.PNG)
 {: refdef}
-2. If GitLab is using SSH Key authentication <b>(PREFFERED)</b> paste the private key to the public key stored in GitLab under User Settings -> SSH Keys.
+* If GitLab is using SSH Key authentication <b>(PREFFERED)</b> paste the private key to the public key stored in GitLab under User Settings -> SSH Keys.
 {: style="color:black; font-size: 80%;"}
   * Name
   * Credential Type = "Source Control"
