@@ -12,7 +12,7 @@ header:
 * <a href="#IDM"> Identity Manager </a>
 * <a href="#Openshift"> Openshift </a>
 * <a href="#AnsibleTower"> Ansible Tower </a>
-      * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
+  * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
 
 <h3 id="SSO">Single Sign ON</h3>
 <h4> Create Initial Admin User using CLI </h4>
