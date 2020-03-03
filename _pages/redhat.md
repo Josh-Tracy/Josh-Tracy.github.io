@@ -52,7 +52,7 @@ header:
 {: style="color:DodgerBlue;"}
 Configuring Ansible Tower to clone repos from a private GitLab server.
 
-1. In Ansible Tower Settings -> Credentials
+In Ansible Tower Settings -> Credentials
 {: style="color:black; font-size: 80%;"}
 {:refdef: style="text-align: center;"}
 ![My Image]({{ site.baseimg }}/images/towercreds.PNG)
@@ -62,7 +62,7 @@ Configuring Ansible Tower to clone repos from a private GitLab server.
 * Credential Type: "Source Control"
 * All other can be blank. Save.
 {: style="color:black; font-size: 80%;"}
-2. In Ansible Tower go to Projects -> Add
+In Ansible Tower go to Projects -> Add
 {: style="color:black; font-size: 80%;"}
 {:refdef: style="text-align: center;"}
 ![My Image]({{ site.baseimg }}/images/towerproject.PNG)
@@ -73,3 +73,16 @@ Configuring Ansible Tower to clone repos from a private GitLab server.
 * SCM Credential: The one you just made
 * SCM URL: The URL of the repo you will clone from. If HTTPS:// is not an option or doesnt work, use SSH://<"user@repo"> like in the picture above.
 * Save
+{: style="color:black; font-size: 80%;"}
+<h4>Errors</h4>
+{: style="color:DodgerBlue; font-size: 80%;"} 
+"The Peers certificate issues could not be recognized"
+{: style="color:red; font-size: 80%;"}
+SSL Is not configured on GitLab. If GitLab is using a self signed cert:
+{: style="color:black; font-size: 80%;"}
+
+* Copy the self signed cert from GitLab to:
+* /etc/pki/ca-trust/source/anchors/
+* run: <b>update-ca-trust extract</b>
+{: style="color:black; font-size: 80%;"}
+
