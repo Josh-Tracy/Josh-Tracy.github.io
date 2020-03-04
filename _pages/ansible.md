@@ -47,3 +47,11 @@ FIX: Republish the meta-data for the content view subscribed to on the RedHat Sa
 {: style="color:black; font-size: 80%;"} 
 
 <h3 id="AnsibleVault">Ansible Vault</h3>
+<h4> Encrypt Strings </h4>
+{: style="color:DodgerBlue; font-size: 80%;"}
+ansible-vault encrypt_string 'mypassword' --name 'password'
+{: style="color:black; font-size: 80%;"} 
+<h4> Decrypt Strings in a file</h4>
+{: style="color:DodgerBlue; font-size: 80%;"}
+ansible localhost -m debug -a var='password' -e "@file.yml" --ask-vault-pass
+{: style="color:black; font-size: 80%;"}
