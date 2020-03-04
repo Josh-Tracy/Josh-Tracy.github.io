@@ -12,16 +12,17 @@ header:
   * <a href="#Credentials"> Credentials </a>
 
 <h3 id="CLI"> AWS CLI <h3>
+
 <h4 id="Credentials"> CLI Credentials </h4>
 {: style="color:DodgerBlue;"}
 
 The AWS CLI configuration is stored in <b>.AWS</b> in the home directory
 
 * ~/.aws/credentials
-  <pre>
+<pre>
     [default]
     aws_access_key_id=AKIAIOSFODNN7EXAMPLE
     aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
-  </pre>
-  
+</pre>
+
 * ~/.aws/config
