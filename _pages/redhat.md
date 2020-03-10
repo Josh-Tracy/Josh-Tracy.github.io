@@ -13,6 +13,8 @@ header:
 * <a href="#Satellite"> Satellite </a>
 * <a href="#IDM"> Identity Manager </a>
 * <a href="#Openshift"> Openshift </a>
+  * <a href="#Exited"> Restart Exited Containers </a>
+  * <a href="#Restart"> Restart Master Services </a>
 * <a href="#AnsibleTower"> Ansible Tower </a>
   * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
   * <a href="#TowerErrors"> Tower Errors </a>
@@ -50,6 +52,20 @@ header:
 <h3 id="IDM">IDM</h3>
 
 <h3 id="Openshift">Openshift</h3>
+
+<h4 id="Exited">Find "Exited" containers and restart</h4>
+{: style="color:DodgerBlue;"}
+
+docker ps -a | grep Exited | awk '{print $1}' | xargs -L1 docker restart
+{: style="color:black; font-size: 80%;"}
+
+<h4 id="Restart">Restart Master Services</h4>
+{: style="color:DodgerBlue;"}
+
+* /usr/local/bin/master-restart api
+* /usr/local/bin/master-restart controller
+{: style="color:black; font-size: 80%;"}
+
 
 <h3 id="AnsibleTower">Ansible Tower</h3>
 <h4 id="AnsibleGit">Configure Project Runs from GitLab</h4>
