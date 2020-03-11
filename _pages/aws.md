@@ -24,5 +24,13 @@ The AWS CLI configuration is stored in /.AWS in the home directory
     aws_access_key_id=AKIAIOSFODNN7EXAMPLE
     aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 </pre>
+{: style="color:black; font-size: 80%;"}
 
 * ~/.aws/config
+
+<pre>
+  [default]
+  region=us-west-2
+  output=json
+</pre>
+{: style="color:black; font-size: 80%;"}
