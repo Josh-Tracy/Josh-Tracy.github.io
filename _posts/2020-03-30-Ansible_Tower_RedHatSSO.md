@@ -49,9 +49,10 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
 {: style="color:black; font-size: 80%;"}
 * Complete the fields as shown. <b>NOTE:</b> Some cannot be edited.
 {: style="color:black; font-size: 80%;"}
-    * SAML ASSERTION CONSUMER SERVICE (ACS) URL: <b>Cannot edit</b>
+* SAML ASSERTION CONSUMER SERVICE (ACS) URL: <b>Cannot edit</b>
     {: style="color:black; font-size: 80%;"}
-    * SAML SERVICE PROVIDER METADATA URL: <b>Cannot edit</b>; used to obtain tower’s SAML metadata using curl. <b>Note:</b> Must match Client ID on SSO server.
+* SAML SERVICE PROVIDER METADATA URL: <b>Cannot edit</b>; used to obtain tower’s SAML metadata using curl.
     {: style="color:black; font-size: 80%;"}
-    *
+* SAML SERVICE PROVIDER ENTITY ID: Enter the URL of the server. <b>Note:</b> Must match Client ID on SSO server.
+    {: style="color:black; font-size: 80%;"}
     
