@@ -175,3 +175,35 @@ IDP Initiated SSO URL NAME: <b>URL  OF TOWER SERVER</b>
 
 * Click <b>Save</b>
 {: style="color:black; font-size: 80%;"}
+
+#### Step 4: Configure Mappers
+Complete the following steps to create and configure mappers on Ansible Tower’s RHSSO client:
+{: style="color:black; font-size: 80%;"}
+
+* In the tower client settings, select <b>Mappers</b> tab
+{: style="color:black; font-size: 80%;"}
+* Click <b>Create</b> and add the 5 mappers show in the following figures
+{: style="color:black; font-size: 80%;"}
+
+<span style="background-color: #9DFBA5"><b>Note:</b> firstName and lastName are case sensitive</span>
+{: style="color:black; font-size: 80%;"}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/username.png)
+{: refdef}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/lastname.png)
+{: refdef}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/email.png)
+{: refdef}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/userid.png)
+{: refdef}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/firstname.png)
+{: refdef}
