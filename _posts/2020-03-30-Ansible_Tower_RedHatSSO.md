@@ -59,3 +59,15 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
 {: style="color:black; font-size: 80%;"}
 * <b>SAML SERVICE PROVIDER PRIVATE KEY:</b> Paste the <b>saml.key</b>
 {: style="color:black; font-size: 80%;"}
+* <b>SAML SERVICE PROVIDER ORGANIZATION INFO:</b>
+{: style="color:black; font-size: 80%;"}
+<pre>
+{
+ "en-US": {
+  "url": "<URL OF TOWER SERVER>:8443",
+  "displayname": "RHSSO",
+  "name": "RHSSO"
+ }
+}
+</pre>
+{: style="color:black; font-size: 70%;"}
