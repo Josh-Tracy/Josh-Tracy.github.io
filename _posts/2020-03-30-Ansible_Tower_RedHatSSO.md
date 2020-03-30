@@ -141,3 +141,37 @@ curl -L -k https://<<b>YOUR TOWER URL</b>>/sso/metadata/saml/
 
 <span style="background-color: #9DFBA5"><b>Note:</b> Ensure the client ID matches <b>SAML Service Provider Entity ID</b> from the Tower SAML page earlier. They both should be the URL of the tower server: <b>https://tower.example.org</b></span>
 {: style="color:black; font-size: 80%;"}
+
+* In the Client Protocol box, select SAML
+{: style="color:black; font-size: 80%;"}
+* Click <b>Save</b>
+{: style="color:black; font-size: 80%;"}
+* Apply the following settings:
+{: style="color:black; font-size: 80%;"}
+<pre>
+Client ID: <b>URL of Tower Server</b>
+Enabled: ON
+Consent Required: OFF
+Client Protocol: SAML
+Include AuthnStatement: ON
+Include OneTimeUseCondition: OFF
+Sign Documents: ON
+Optmize REDIRECT signing key lookup: OFF
+Sign Assertations: ON
+Signature Algo: PICK
+SAML SIGNATURE KEY NAME: PICK
+Canonicalization Method: Exclusive
+Encrypt Assertations: OFF
+Client Signature required: OFF
+Force POST Binding: ON
+Force Channel Logout: ON
+Force NAme ID Format: OFF
+Name ID Format: username
+Root URL: <b>URL OF TOWER SERVER</b>
+Valid Redirect URIs: <b>URL of TOWER SERVER</b>/sso/complete/saml
+IDP Initiated SSO URL NAME: <b>URL  OF TOWER SERVER</b>
+</pre>
+{: style="color:black; font-size: 70%;"}
+
+* Click <b>Save</b>
+{: style="color:black; font-size: 80%;"}
