@@ -114,8 +114,30 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
 </pre>
 {: style="color:black; font-size: 70%;"}
 
-<span style="background-color: #9DFBA5"></b>Note:</b> The x509cert can be found by logging in to the SSO server and navigating to your realm’s <b>realm settings</b> -> <b>keys</b> -> and clicking </b>Certificate</b> under Public keys for the key store you created earlier.</span>
+<span style="background-color: #9DFBA5"><b>Note:</b> The x509cert can be found by logging in to the SSO server and navigating to your realm’s <b>realm settings</b> -> <b>keys</b> -> and clicking <b>Certificate</b> under Public keys for the key store you created earlier.</span>
 {: style="color:black; font-size: 80%;"}
 
+* Click <b>Save</b>
+{: style="color:black; font-size: 80%;"}
 
+#### Step 3: Create the Tower Client in RedHat SSO
+Complete the following steps to create the Tower Client in SSO.
+{: style="color:black; font-size: 80%;"}
 
+* In SSO, click on <b>your realm</b> -> <b>Clients</b> -> <b>Create</b>
+{: style="color:black; font-size: 80%;"}
+* Choose <b>Select File</b>
+{: style="color:black; font-size: 80%;"}
+* SSH into the tower server, or from a CLI that can curl the tower server, and run the following command: 
+{: style="color:black; font-size: 80%;"}
+<pre>
+curl -L -k https://<<b>YOUR TOWER URL</b>>/sso/metadata/saml/
+</pre>
+{: style="color:black; font-size: 70%;"}
+* Save the output into <b>tower_saml.xml</b>
+{: style="color:black; font-size: 80%;"}
+* Upload the <b>tower_saml.xml</b>
+{: style="color:black; font-size: 80%;"}
+
+<span style="background-color: #9DFBA5"><b>Note:</b> Ensure the client ID matches <b>SAML Service Provider Entity ID</b> from the Tower SAML page earlier. They both should be the URL of the tower server: <b>https://tower.example.org</b></span>
+{: style="color:black; font-size: 80%;"}
