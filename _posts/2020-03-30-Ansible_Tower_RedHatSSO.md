@@ -13,11 +13,18 @@ Keycloak is the upstream project for RedHat SSO. When troubleshooting look at ke
 Ansible AWX is the opensource free version of RedHat's Ansible Tower. 
 {: style="color:black; font-size: 80%;"}
 
-## Create Ket, Certificate, and Key Store
-Follow these steps to create the key, certificate and key store to enable Ansible Tower SSO integration. 
+## Create Key, Certificate, and Key Store
+Follow these steps to create the key, certificate and key store to enable Ansible Tower SSO integration.
+{: style="color:black; font-size: 80%;"} 
 1.	If you do not possess an x509 cert, enter the following to create one:
-openssl req -new -x509 -days 365 -nodes -out saml.crt -keyout saml.key
+{: style="color:black; font-size: 80%;"}
+<pre>openssl req -new -x509 -days 365 -nodes -out saml.crt -keyout saml.key</pre>
+{: style="color:black; font-size: 80%;"}
 2.	Save <b>saml.key</b> in a notepad
-3.	Save saml.crt in a notepad
-4.	Log in to the SSO GUI as an admin
-5.	Navigate to the existing OCP realm -> Keys -> Providers, then click Add keystore as shown below
+{: style="color:black; font-size: 80%;"}
+3.	Save <b>saml.crt</b> in a notepad
+{: style="color:black; font-size: 80%;"}
+4.	Log in to the RedHat SSO GUI as an admin
+{: style="color:black; font-size: 80%;"}
+5.	Navigate to <b>your realm</b> -> <b>Keys</b> -> <b>Providers</b>, then click <b>Add keystore</b> as shown below
+{: style="color:black; font-size: 80%;"}
