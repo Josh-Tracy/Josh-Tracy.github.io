@@ -232,3 +232,26 @@ If you run into issues during the configuration check here first.
 
 <b>Fix:</b> Check the log in the above location. There is likely a syntax error in the .xml file.
 {: style="color:black; font-size: 80%;"}
+
+<b>Error:</b> “Found an Attribute element with duplicated Name” when attempting to log in with SSO.
+{: style="color:black; font-size: 80%;"}
+<b>Fix:</b> Navigate to <b>(Your realm)</b> -> <b>Client Scopes</b> -> <b>role_list</b> (saml) -> <b>Mappers tab</b> -> <b>role list</b>, then turn on <b>Single Role Attribute</b>.
+{: style="color:black; font-size: 80%;"}
+
+<b>Error:</b> “Signature validation failed” when logging in to tower with SSO.
+{: style="color:black; font-size: 80%;"}
+<b>Fix:</b> Check whether the x509cert is correct in Ansible Tower’s SAML settings under SAML ENABLED IDENTITY PROVIDERS. After ensuring the x509cert is valid, enter it on one line without spaces.
+{: style="color:black; font-size: 80%;"}
+
+<b>Error:</b> “Invalid Signature” when trying to log in with SSO.
+{: style="color:black; font-size: 80%;"}
+<b>Fix:</b> Turn off <b>Client Signature Required</b> under the Tower client settings tab in SSO.
+{: style="color:black; font-size: 80%;"}
+
+<b>Error:</b> “Sign in with SSO” option not showing up on Tower log-in screen.
+{: style="color:black; font-size: 80%;"}
+<b>Fix:</b> You must complete the <b>SAML ENABLED IDENTITY PROVIDERS</b> section of the tower SAML setup page for this to appear. 
+{: style="color:black; font-size: 80%;"}
+
+
+
