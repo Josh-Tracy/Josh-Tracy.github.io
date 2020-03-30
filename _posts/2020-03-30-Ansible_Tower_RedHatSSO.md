@@ -13,7 +13,7 @@ excerpt: "RedHat, Ansible, Tower, AWX, Keycloak, SSO, OpenID, SAML"
 <span style="background-color: #9DFBA5">Ansible AWX is the opensource free version of RedHat's Ansible Tower. </span>
 {: style="color:black; font-size: 80%;"}
 
-#### Create Key, Certificate, and Key Store
+#### STEP 1: Create Key, Certificate, and Key Store
 Follow these steps to create the key, certificate and key store to enable Ansible Tower SSO integration.
 {: style="color:black; font-size: 80%;"} 
 *	If you do not possess an x509 cert, enter the following to create one:
@@ -40,3 +40,18 @@ Follow these steps to create the key, certificate and key store to enable Ansibl
 {: refdef}
 * Click <b>Save</b>
 {: style="color:black; font-size: 80%;"}
+
+#### STEP 2: Configure Ansible Tower for SAML (SSO) Authentication
+Follow these steps to configure Ansible Tower for Security Assertion Markup Language (SAML) single sign-on (SSO) authentication.
+{: style="color:black; font-size: 80%;"}
+
+*	Log in as the admin user on Ansible Tower and go to <b>Settings</b> > <b>Configure Tower</b> > <b>Authentication</b> > <b>SAML</b>
+{: style="color:black; font-size: 80%;"}
+* Complete the fields as shown. <b>NOTE:</b> Some cannot be edited.
+{: style="color:black; font-size: 80%;"}
+    * SAML ASSERTION CONSUMER SERVICE (ACS) URL: <b>Cannot edit</b>
+    {: style="color:black; font-size: 80%;"}
+    * SAML SERVICE PROVIDER METADATA URL: <b>Cannot edit</b>; used to obtain tower’s SAML metadata using curl. <b>Note:</b> Must match Client ID on SSO server.
+    {: style="color:black; font-size: 80%;"}
+    *
+    
