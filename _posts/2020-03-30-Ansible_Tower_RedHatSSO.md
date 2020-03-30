@@ -65,10 +65,54 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
 <pre>
 {
  "en-US": {
-  "url": "<<b>'URL OF TOWER SERVER'</b>>:<<b>'PORT IF NEEDED'</b>>",
+  "url": "<<b>URL OF TOWER SERVER</b>>:<<b>PORT IF NEEDED</b>>",
   "displayname": "RHSSO",
   "name": "RHSSO"
  }
 }
 </pre>
 {: style="color:black; font-size: 70%;"}
+
+* <b>SAML SERVICE PROVIDER TECHNICAL CONTACT:</b>
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+{
+ "givenName": "<<b>YOUR NAME</b>>",
+ "emailAddress": "<<b>YOUR EMAIL</b>>"
+}
+</pre>
+{: style="color:black; font-size: 70%;"}
+
+* <b>SAML SERVICE PROVIDER SUPPORT CONTACT:</b>
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+{
+ "givenName": "<<b>YOUR NAME</b>>",
+ "emailAddress": "<<b>YOUR EMAIL</b>>"
+}
+</pre>
+{: style="color:black; font-size: 70%;"}
+
+* <b>SAML ENABLED IDENTITY PROVIDERS:</b>
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+{
+ "RHSSO": {
+  "attr_last_name": "last_name",
+  "attr_username": "username",
+  "entity_id": "<<b>SSO SERVER URL</b>:<b>PORT IF NEEDED</b>/auth/realms/<b>YOUR REALM</b>",
+  "attr_user_permanent_id": "name_id",
+  "url": "<<b>SSO SERVER URL</b>>:<b>PORT IF NEEDED</b>/auth/realms/<b>YOUR REALM</b>/protocol/saml",
+  "attr_email": "email",
+  "x509cert":  “ <<b>PASTE THE X509 PUBLIC CERT HERE IN ONE, NON-BREAKING LINE</b>>"
+  "attr_first_name": "first_name"
+ }
+}
+</pre>
+{: style="color:black; font-size: 70%;"}
+
+
+
