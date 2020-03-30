@@ -207,3 +207,28 @@ Complete the following steps to create and configure mappers on Ansible Tower’
 {:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 ![My Image]({{ site.baseimg }}/images/firstname.png)
 {: refdef}
+
+If done properly, the log-in screen for tower should show “SIGN IN WITH” and an S symbol, as shown in the figure below. This will redirect you to SSO sign-in.
+{: style="color:black; font-size: 80%;"}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/signinwith.png)
+{: refdef}
+
+### Troubleshooting
+If you run into issues during the configuration check here first.
+{: style="color:black; font-size: 80%;"}
+
+#### Logs for SSO are found on the SSO server at:
+<pre><b>/opt/rh/rh-sso7/root/usr/share/keycloak/standalone/log/server.log</b></pre>
+{: style="color:black; font-size: 70%;"}
+
+<b>Error:</b> When uploading .xml metadata files:
+{: style="color:black; font-size: 80%;"}
+
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/error.png)
+{: refdef}
+
+<b>Fix:</b> Check the log in the above location. There is likely a syntax error in the .xml file.
+{: style="color:black; font-size: 80%;"}
