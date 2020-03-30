@@ -10,7 +10,7 @@ excerpt: "RedHat, Ansible, Tower, AWX, Keycloak, SSO, OpenID, SAML"
 
 <span style="background-color: #9DFBA5">Keycloak is the upstream project for RedHat SSO. When troubleshooting look at keycloak documentation as well</span>
 {: style="color:black; font-size: 80%;"}
-Ansible AWX is the opensource free version of RedHat's Ansible Tower. 
+<span style="background-color: #9DFBA5">Ansible AWX is the opensource free version of RedHat's Ansible Tower. </span>
 {: style="color:black; font-size: 80%;"}
 
 #### Create Key, Certificate, and Key Store
@@ -28,3 +28,6 @@ Follow these steps to create the key, certificate and key store to enable Ansibl
 {: style="color:black; font-size: 80%;"}
 *	Navigate to <b>your realm</b> -> <b>Keys</b> -> <b>Providers</b>, then click <b>Add keystore</b> as shown below
 {: style="color:black; font-size: 80%;"}
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/keystore.png)
+{: refdef}
