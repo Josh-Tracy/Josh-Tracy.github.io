@@ -65,7 +65,7 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
 <pre>
 {
  "en-US": {
-  "url": "<URL OF TOWER SERVER>:8443",
+  "url": "<<b>'URL OF TOWER SERVER'</b>>:<<b>'PORT IF NEEDED'</b>>",
   "displayname": "RHSSO",
   "name": "RHSSO"
  }
