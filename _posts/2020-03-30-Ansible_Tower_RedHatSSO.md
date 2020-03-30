@@ -28,6 +28,6 @@ Follow these steps to create the key, certificate and key store to enable Ansibl
 {: style="color:black; font-size: 80%;"}
 *	Navigate to <b>your realm</b> -> <b>Keys</b> -> <b>Providers</b>, then click <b>Add keystore</b> as shown below
 {: style="color:black; font-size: 80%;"}
-{:refdef: style="text-align: left;"}
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 ![My Image]({{ site.baseimg }}/images/keystore.png)
 {: refdef}
