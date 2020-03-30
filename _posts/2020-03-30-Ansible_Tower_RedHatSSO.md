@@ -103,9 +103,9 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
  "RHSSO": {
   "attr_last_name": "last_name",
   "attr_username": "username",
-  "entity_id": "<<b>SSO SERVER URL</b>:<b>PORT IF NEEDED</b>/auth/realms/<b>YOUR REALM</b>",
+  "entity_id": "<<b>SSO SERVER URL</b>>:<<b>PORT IF NEEDED</b>>/auth/realms/<b>YOUR REALM</b>",
   "attr_user_permanent_id": "name_id",
-  "url": "<<b>SSO SERVER URL</b>>:<b>PORT IF NEEDED</b>/auth/realms/<b>YOUR REALM</b>/protocol/saml",
+  "url": "<<b>SSO SERVER URL</b>>:<<b>PORT IF NEEDED</b>>/auth/realms/<b>YOUR REALM</b>/protocol/saml",
   "attr_email": "email",
   "x509cert":  “ <<b>PASTE THE X509 PUBLIC CERT HERE IN ONE, NON-BREAKING LINE</b>>"
   "attr_first_name": "first_name"
@@ -113,6 +113,9 @@ Follow these steps to configure Ansible Tower for Security Assertion Markup Lang
 }
 </pre>
 {: style="color:black; font-size: 70%;"}
+
+<span style="background-color: #9DFBA5"></b>Note:</b> The x509cert can be found by logging in to the SSO server and navigating to your realm’s <b>realm settings</b> -> <b>keys</b> -> and clicking </b>Certificate</b> under Public keys for the key store you created earlier.</span>
+{: style="color:black; font-size: 80%;"}
 
 
 
