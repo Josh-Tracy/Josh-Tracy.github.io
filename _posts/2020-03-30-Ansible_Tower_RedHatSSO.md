@@ -31,3 +31,12 @@ Follow these steps to create the key, certificate and key store to enable Ansibl
 {:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 ![My Image]({{ site.baseimg }}/images/keystore.png)
 {: refdef}
+* Select <b>RSA</b> from the dropdown
+{: style="color:black; font-size: 80%;"}
+* Complete the fields as shown below. <b>(Upload your saml.key and smal.crt)</b>
+{: style="color:black; font-size: 80%;"}
+{:refdef: style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![My Image]({{ site.baseimg }}/images/rsa.png)
+{: refdef}
+* Click <b>Save</b>
+{: style="color:black; font-size: 80%;"}
