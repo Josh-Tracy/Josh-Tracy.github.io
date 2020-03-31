@@ -3,7 +3,7 @@ title: "Configuring Ansible Tower/AWX with RedHat SSO / Keycloak"
 date: 2020-03-30
 tags: [RedHat, Ansible, Tower, AWX, Keycloak, SSO, OpenID, SAML]
 header:
-  image: "/images/ospf_banner.png"
+  image: "/images/Tower_sso.png"
 excerpt: "RedHat, Ansible, Tower, AWX, Keycloak, SSO, OpenID, SAML"
 ---
 ### Configuring Ansible Tower to use RedHat Single Sign on
