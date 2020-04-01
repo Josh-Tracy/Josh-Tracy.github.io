@@ -18,6 +18,7 @@ header:
 * <a href="#AnsibleTower"> Ansible Tower </a>
   * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
   * <a href="#TowerErrors"> Tower Errors </a>
+* <a href="#Quay">Quay</a>
 
 <h3 id="SSO">Single Sign ON</h3>
 <h4 id="admin"> Create Initial Admin User using CLI </h4>
@@ -38,7 +39,7 @@ header:
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
-<h4 id="lofs">SSO Log Location</h4>
+<h4 id="logs">SSO Log Location</h4>
 {: style="color:DodgerBlue;"}
 
 * /opt/rh/rh-sso7/root/usr/share/keycloak/standalone/log/server.log
@@ -106,3 +107,42 @@ SSL Is not configured on GitLab. If GitLab is using a self signed cert:
 * run: <b>update-ca-trust extract</b>
 {: style="color:black; font-size: 80%;"}
 
+<h3 id="Quay">Quay/h3>
+S3 Policy for allowing Quay Registry access
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Effect": "Allow",
+"Principal": {
+"AWS": "arn:aws:iam::AWS-account-ID:root"
+},
+"Action": [
+"s3:ListBucket",
+"s3:GetBucketLocation",
+"s3:ListBucketMultipartUploads",
+"s3:PutBucketCORS"
+],
+"Resource": "arn:aws:s3:::bucket-name"
+},
+{
+"Effect": "Allow",
+"Principal": {
+"AWS": "arn:aws:iam::AWS-account-ID:root"
+},
+"Action": [
+"s3:PutObject",
+"s3:GetObject",
+"s3:DeleteObject",
+"s3:ListMultipartUploadParts",
+"s3:AbortMultipartUpload"
+],
+"Resource": "arn:aws:s3:::bucket-name/*"
+}
+]
+}
+</pre>
+{: style="color:black; font-size: 70%;"}
