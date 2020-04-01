@@ -107,7 +107,7 @@ SSL Is not configured on GitLab. If GitLab is using a self signed cert:
 * run: <b>update-ca-trust extract</b>
 {: style="color:black; font-size: 80%;"}
 
-<h3 id="Quay">Quay/h3>
+<h3 id="Quay">Quay</h3>
 S3 Policy for allowing Quay Registry access
 {: style="color:black; font-size: 80%;"}
 
