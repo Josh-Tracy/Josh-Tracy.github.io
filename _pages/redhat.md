@@ -19,6 +19,7 @@ header:
   * <a href="#AnsibleGit"> Configure Project Runs from GitLab </a>
   * <a href="#TowerErrors"> Tower Errors </a>
 * <a href="#Quay">Quay</a>
+  * <a href="#QuayS3"> Quay S3 Registry Settings </a>
 
 <h3 id="SSO">Single Sign ON</h3>
 <h4 id="admin"> Create Initial Admin User using CLI </h4>
@@ -108,7 +109,24 @@ SSL Is not configured on GitLab. If GitLab is using a self signed cert:
 {: style="color:black; font-size: 80%;"}
 
 <h3 id="Quay">Quay</h3>
-S3 Policy for allowing Quay Registry access
+
+<h4 id="QuayS3">S3 Registry Settings</h4>
+{: style="color:DodgerBlue; font-size: 80%;"} 
+
+* Storage engine: Amazon S3
+{: style="color:black; font-size: 80%;"}
+* S3 Bucket: Bucket name
+{: style="color:black; font-size: 80%;"}
+* Storage Directory: /datastorage/registry
+{: style="color:black; font-size: 80%;"}
+* AWS Access key: Add your key
+{: style="color:black; font-size: 80%;"}
+* AWS Secret Key: Add your Key 
+{: style="color:black; font-size: 80%;"}
+* S3 Host (Optional): s3.<b>your_region</b>.amazonaws.com
+{: style="color:black; font-size: 80%;"}
+
+#### S3 Policy for allowing Quay Registry access
 {: style="color:black; font-size: 80%;"}
 
 <pre>
