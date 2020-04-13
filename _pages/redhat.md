@@ -53,6 +53,15 @@ header:
 
 <h3 id="IDM">IDM</h3>
 
+<h4> List Users</h4>
+{: style="color:DodgerBlue;"}
+
+* kinit admin
+{: style="color:black; font-size: 80%;"}
+
+* ipa find-user --all ( or single user)
+{: style="color:black; font-size: 80%;"}
+
 <h3 id="Openshift">Openshift</h3>
 
 <h4 id="Exited">Find "Exited" containers and restart</h4>
