@@ -9,7 +9,7 @@ header:
 ### Table Of Contents
 * <a href="#SSO"> Single Sign On </a>
   * <a href="#admin"> Initial Admin creation from CLI </a>
-  * <a href="man_admin"> Access managment console at port 9990 </a>
+  * <a href="manadmin"> Access managment console at port 9990 </a>
   * <a href="#logs"> SSO Logs </a>
 * <a href="#Satellite"> Satellite </a>
 * <a href="#IDM"> Identity Manager </a>
@@ -41,7 +41,7 @@ header:
 </pre>
 {: style="color:gray; font-size: 70%;"}
 
-<h4 id="man_admin"> Access Management Console at port 9990</h4>
+<h4 id="manadmin"> Access Management Console at port 9990</h4>
 {: style="color:DodgerBlue;"}
 
 * /opt/rh/rh-sso7/root/usr/share/keycloak/bin/add-user.sh
