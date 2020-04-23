@@ -8,7 +8,7 @@ header:
 
 ### Table Of Contents
 * <a href="#SSO"> Single Sign On </a>
-  * <a href="#admin"> Initial Admin creation from CLI </a>\
+  * <a href="#admin"> Initial Admin creation from CLI </a>
   * <a href="man_admin"> Access managment console at port 9990 </a>
   * <a href="#logs"> SSO Logs </a>
 * <a href="#Satellite"> Satellite </a>
