@@ -11,7 +11,7 @@ header:
 {: style="color:DodgerBlue;"}
 
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/Ansible_logo.svg.jpg){:height="100px" width="100px"}{: .align-left} Experience writing Ansible playbooks to deploy applications and configure devices.
+![My Image]({{ site.baseimg }}/images/Ansible_logo.svg.jpg){:height="100px" width="100px"}{: .align-left} Experience writing Ansible playbooks to deploy applications and configure devices in AWS using CloudFormation.
 {:style="clear: left"}
 {: refdef}
 
@@ -22,12 +22,12 @@ header:
 {: refdef}
 
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/amazon_aws.png){:height="100px" width="100px"}{: .align-left} Experience working in AWS environments with EC2, Route53, S3, etc. building a PaaS utilizing Ansible to configure Cloud Formation.  
+![My Image]({{ site.baseimg }}/images/amazon_aws.png){:height="100px" width="100px"}{: .align-left} Experience working in AWS environments with EC2, Route53, S3, CloudFormation, etc. building a PaaS using Openshift.  
 {:style="clear: left"}
 {: refdef}
 
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/linux.PNG){:height="100px" width="100px"}{: .align-left} Handy in Linux with experience on Ubuntu and RHEL 7 systems.   
+![My Image]({{ site.baseimg }}/images/linux.PNG){:height="100px" width="100px"}{: .align-left} Handy in Linux with experience on Ubuntu and RHEL 7 systems and RedHat products.   
 {:style="clear: left"}
 {: refdef}
 
@@ -38,6 +38,7 @@ header:
 * CCNA Security
 * CCDA
 * Amazon Web Services Solutions Architect Associate (AWS)
+* Amazon Web Services SysOps Administrator Associate (AWS)
 * CompTIA Security+
 * CompTIA Project+
 * CompTIA Network+
