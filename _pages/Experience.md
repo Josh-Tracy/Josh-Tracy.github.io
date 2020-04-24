@@ -13,11 +13,11 @@ header:
 {: style="color:DodgerBlue;"}
 As part of the modernization and innovations team at US Special Operations command I was involved in new endeavors while also supporting the the enterprise's networking infrastrucutre.
 Some of my responsibilities and projects included:
-*  Part of the SOCOM Innovations team responsible for research and implementation of new technologies within the SOCOM IT infrastructure. 
-*  Experience deploying containerized instances for applications.
-*  Part of DevOps team responsible for implementing a PaaS solution using Amazon Web Services – EC2, S3, Git Lab, and Ansible automation.
-*  Manage the on-premise developer network using Cisco ACI and Nexus switches. 
-*  Work with vendors, the Government, carriers and technical staff on implementing new network solutions, optimization, and ongoing management.
+* Part of the Innovations team responsible for research and implementation of new technologies within the SOCOM IT infrastructure. 
+* Built and integrated systems using Amazon Web Services (AWS) such as EC2, S3, EFS, and CloudFormation. 
+* Part of a DevOps that built a Platform As a Service for the enterprise using RedHat’s Openshift Container Platform.
+* Automated the deployment of infrastructure on AWS using RedHat’s Ansible. 
+* Built and managed multiple RedHat Enterprise Linux operating systems and RedHat products to include Single Sign On, Identity Manager, and Openshift. 
 {: style="color:black; font-size: 80%;"}
 
 ### Enterprise Network Administrator -- September 2018 - September 2019
