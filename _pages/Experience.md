@@ -11,13 +11,13 @@ header:
 {: style="color:DodgerBlue;"}
 #### Atlantic Digital -- Tampa, FL 
 {: style="color:DodgerBlue;"}
-As part of the modernization and innovations team at US Special Operations command I was involved in new endeavors while also supporting the the enterprise's networking infrastrucutre.
-Some of my responsibilities and projects included:
+* Work alongside developers, data scientists, and other government customers to overcome IT infrastructure hurtles and implement new technologies in an Enterprise of over 70,000 users. 
 * Part of the Innovations team responsible for research and implementation of new technologies within the SOCOM IT infrastructure. 
-* Built and integrated systems using Amazon Web Services (AWS) such as EC2, S3, EFS, and CloudFormation. 
-* Part of a DevOps that built a Platform As a Service for the enterprise using RedHat’s Openshift Container Platform.
-* Automated the deployment of infrastructure on AWS using RedHat’s Ansible. 
-* Built and managed multiple RedHat Enterprise Linux operating systems and RedHat products to include Single Sign On, Identity Manager, and Openshift. 
+*	Part of a DevOps team that built a Platform As a Service (PaaS) for the enterprise using RedHat’s Openshift Container Platform.
+*	Provide a secure environment by utilizing DISA STIG requirements and openSCAP scanning.
+*	Automated the deployment of infrastructure on AWS using RedHat’s Ansible and Ansible Tower.
+* Built and managed multiple RedHat Enterprise Linux operating systems and RedHat products to include: RedHat Satellite, RedHat IDM, RedHat SSO, RedHat Quay, and RedHat Ansible Tower
+* Built and integrated systems using Amazon Web Services (AWS) such as EC2, S3, Route53, EFS, and CloudFormation. 
 {: style="color:black; font-size: 80%;"}
 
 ### Enterprise Network Administrator -- September 2018 - September 2019
