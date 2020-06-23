@@ -46,14 +46,14 @@ header:
 
 ## Education
 {: style="color:DodgerBlue;"}
-#### Western Governors University (Graduated) 
+* #### Western Governors University (Graduated) 
 
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/wgu.png){:height="100px" width="100px"}{: .align-left} B.A.S. Degree: Network Operations and Security
 {:style="clear: left"}
 {: refdef}
 
-#### University of South Florida (USF) (Currently Pursuing)
+* #### University of South Florida (USF) (Currently Pursuing)
 {:refdef: style="text-align: left;"}
 ![My Image]({{ site.baseimg }}/images/university-of-south-florida-usf-vector-logo.png){:height="100px" width="100px"}{: .align-left} M.S. Cyber Security - Cyber Intelligence 
 {:style="clear: left"}
