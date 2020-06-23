@@ -23,7 +23,7 @@ Main repository: <a href="https://github.com/Josh-Tracy/Admin-Scripts.git"> Admi
 Creates users, adds them to groups, and copys ssh key into authorized_keys
 {: style="color:black; font-size: 80%;"}
 
-Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks/add_users.yml"> add_users.yml</a>
+Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/blob/master/playbooks/add_users.yml"> add_users.yml</a>
 {: style="color:black; font-size: 80%;"}
 
 <h4>Register machines to a RedHat Satellite Server</h4>
@@ -31,7 +31,7 @@ Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks
 Define the machines in the host inventory that you want to register. Modify the activation_key, satellite_org_id, satellite_katello_rpm, and satellite_url under group vars.
 {: style="color:black; font-size: 80%;"}
 
-Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/playbooks/register.yml"> register.yml</a>
+Link to playbook: <a href="https://github.com/Josh-Tracy/Admin-Scripts/blob/master/playbooks/register.yml"> register.yml</a>
 {: style="color:black; font-size: 80%;"}
 
 <h3 id="Errors">Errors</h3>
