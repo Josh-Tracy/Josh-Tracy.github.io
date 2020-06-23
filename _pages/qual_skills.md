@@ -54,5 +54,7 @@ header:
 {: refdef}
 
 #### University of South Florida (USF) Currently Pursuing
-M.S. Cyber Security - Cyber Intelligence
-Graduate Spring 2022
+{:refdef: style="text-align: left;"}
+![My Image]({{ site.baseimg }}/images/university-of-south-florida-usf-vector-logo.png){:height="100px" width="100px"}{: .align-left} M.S. Cyber Security - Cyber Intelligence 
+{:style="clear: left"}
+{: refdef}
