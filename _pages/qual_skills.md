@@ -54,7 +54,8 @@ header:
 {: refdef}
 
 * #### University of South Florida (USF) (Currently Pursuing)
+
 {:refdef: style="text-align: left;"}
-![My Image]({{ site.baseimg }}/images/university-of-south-florida-usf-vector-logo.png){:height="100px" width="100px"}{: .align-left} M.S. Cyber Security - Cyber Intelligence 
+![My Image]({{ site.baseimg }}/images/university-of-south-florida-usf-vector-logo.png){:height="200px" width="200px"}{: .align-left} M.S. Cyber Security - Cyber Intelligence 
 {:style="clear: left"}
 {: refdef}
