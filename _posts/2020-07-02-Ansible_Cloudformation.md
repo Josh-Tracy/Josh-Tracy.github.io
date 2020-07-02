@@ -8,7 +8,7 @@ excerpt: "Ansible, AWS, CloudFormation, Automation, Information Technology"
 mathjax: "true"
 ---
 
-### Deploying CloudFormation Templates Using Ansible
+### Note: Open Videos On Youtube's Website for Higher Quality. 
 
 ## Background
 In this 3 part video series I explain how to configure your environment to run Ansible playbooks against AWS resources, how the cloudformation template interacts with Ansible, and the format of the playbook.
