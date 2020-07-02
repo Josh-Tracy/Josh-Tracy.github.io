@@ -11,7 +11,7 @@ mathjax: "true"
 ### Deploying CloudFormation Templates Using Ansible
 
 ## Background
-<span style="background-color: #9DFBA5">In this 3 part video series I explain how to configure your environment to run Ansible playbooks against AWS resources, how the cloudformation template interacts with Ansible, and the format of the playbook.</span>
+background-color: #9DFBA5">In this 3 part video series I explain how to configure your environment to run Ansible playbooks against AWS resources, how the cloudformation template interacts with Ansible, and the format of the playbook.
 {: style="color:black; font-size: 80%;"}
 
 #### Part 1: Configure Your Environment to Run Ansible against AWS resources. 
@@ -24,5 +24,5 @@ This video explains 3 key parts to getting ready to run Ansible against AWS reso
 {: style="color:black; font-size: 80%;"}
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=9zK-wydkLR0">
+src="https://youtu.be/9zK-wydkLR0">
 </iframe>
