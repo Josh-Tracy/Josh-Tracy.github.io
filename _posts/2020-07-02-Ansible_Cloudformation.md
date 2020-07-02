@@ -24,3 +24,15 @@ This video explains 3 key parts to getting ready to run Ansible against AWS reso
 {: style="color:black; font-size: 80%;"}
 
 {% include video id="9zK-wydkLR0" provider="youtube" %}
+
+#### Part 2: Going Over the Playbook, Template, and Variables
+This video explains what the playbook, template, and variables do and how they interact with each other. 
+{: style="color:black; font-size: 80%;"}
+
+{% include video id="faMtZVQvwCs" provider="youtube" %}
+
+#### Part 3: Running the Playbook and Deploying the Stack
+This video explains where to locate certain variables for the parameters. It explains how to run the playbook and what to look for in CloudFormation. 
+{: style="color:black; font-size: 80%;"}
+
+{% include video id="qK6MqPb5Zdw" provider="youtube" %}
