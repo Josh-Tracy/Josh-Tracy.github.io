@@ -23,6 +23,4 @@ This video explains 3 key parts to getting ready to run Ansible against AWS reso
 * Pull in GitHub repo project for use in Video 2 and 3
 {: style="color:black; font-size: 80%;"}
 
-<iframe width="420" height="315"
-src="https://youtu.be/9zK-wydkLR0">
-</iframe>
+{% include video id="9zK-wydkLR0" provider="youtube" %}
