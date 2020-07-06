@@ -157,7 +157,7 @@ Place the following in /quay/config/config.yaml
 
 <pre>
 SSO_LOGIN_CONFIG: {CLIENT_ID: quay, CLIENT_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
-  OIDC_SERVER: 'https://URL_OF_SSO_Server/auth/realms/ocp/', SERVICE_NAME: SSO}
+  OIDC_SERVER: 'https://URL_OF_SSO_Server/auth/realms/REALMNAME/', SERVICE_NAME: SSO}
 </pre>
 {: style="color:black; font-size: 70%;"}
 
