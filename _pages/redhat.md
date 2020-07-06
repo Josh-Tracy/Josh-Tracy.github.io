@@ -21,6 +21,7 @@ header:
   * <a href="#TowerErrors"> Tower Errors </a>
 * <a href="#Quay">Quay</a>
   * <a href="#QuayS3"> Quay S3 Registry Settings </a>
+  * <a href="#QuaySSO"> Quay SSO Configuration </a>
 
 <h3 id="SSO">Single Sign ON</h3>
 <h4 id="admin"> Create Initial Admin User using CLI </h4>
@@ -72,7 +73,7 @@ header:
 * kinit admin
 {: style="color:black; font-size: 80%;"}
 
-* ipa find-user --all ( or single user)
+* ipa user-find --all ( or single user)
 {: style="color:black; font-size: 80%;"}
 
 <h3 id="Openshift">Openshift</h3>
@@ -146,6 +147,21 @@ SSL Is not configured on GitLab. If GitLab is using a self signed cert:
 * AWS Secret Key: Add your Key 
 {: style="color:black; font-size: 80%;"}
 * S3 Host (Optional): s3.<b>your_region</b>.amazonaws.com
+{: style="color:black; font-size: 80%;"}
+
+<h4 id="QuaySSO">SSO Config for Quay</h4>
+{: style="color:DodgerBlue; font-size: 80%;"}
+
+Place the following in /quay/config/config.yaml
+{: style="color:black; font-size: 80%;"}
+
+<pre>
+SSO_LOGIN_CONFIG: {CLIENT_ID: quay, CLIENT_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+  OIDC_SERVER: 'https://URL_OF_SSO_Server/auth/realms/ocp/', SERVICE_NAME: SSO}
+</pre>
+{: style="color:black; font-size: 70%;"}
+
+Also add the CA bundle to a directory called /data/quay/config/extra_ca_certs on the quay host and reboot the container. 
 {: style="color:black; font-size: 80%;"}
 
 #### S3 Policy for allowing Quay Registry access
