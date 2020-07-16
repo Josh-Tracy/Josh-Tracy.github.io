@@ -25,6 +25,18 @@ This video explains 3 key parts to getting ready to run Ansible against AWS reso
 
 {% include video id="9zK-wydkLR0" provider="youtube" %}
 
+#### Dependencies
+* python-boto3
+* git
+* ansible
+* python3-botocore
+
+#### How to Setup AWS CLI Credentials
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+
+#### The GitHub Project Link
+https://github.com/Josh-Tracy/Ansible
+
 #### Part 2: Going Over the Playbook, Template, and Variables
 This video explains what the playbook, template, and variables do and how they interact with each other. 
 {: style="color:black; font-size: 80%;"}
