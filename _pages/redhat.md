@@ -12,6 +12,7 @@ header:
   * <a href="#manadmin"> Access managment console at port 9990 </a>
   * <a href="#logs"> SSO Logs </a>
 * <a href="#Satellite"> Satellite </a>
+  * <a href="openscap"> OpenSCAP Scanning With Ansible From Satellite </a>
 * <a href="#IDM"> Identity Manager </a>
 * <a href="#Openshift"> Openshift </a>
   * <a href="#Exited"> Restart Exited Containers </a>
@@ -65,7 +66,8 @@ header:
 
 <h3 id="Satellite">Satellite</h3>
 
-<h4 id="Setting Up OpenSCAP Scans With Ansible
+<h4 id="openscap">Setting Up OpenSCAP Scanning With Ansible In Satellite</h4>
+{: style="color:DodgerBlue;"}
 
 * Port 9090 open on the firewall/securitygroup/satellite-server
 {: style="color:black; font-size: 80%;"}
