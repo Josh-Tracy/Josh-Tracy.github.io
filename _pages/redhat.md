@@ -65,6 +65,46 @@ header:
 
 <h3 id="Satellite">Satellite</h3>
 
+<h4 id="Setting Up OpenSCAP Scans With Ansible
+
+* Port 9090 open on the firewall/securitygroup/satellite-server
+{: style="color:black; font-size: 80%;"}
+
+* Copy the foreman SSH key from Satellite to each client using the ssh-copy-id command, OR any other method you wish.
+{: style="color:black; font-size: 80%;"}
+
+* Upload the scap content on the satellite server. (Will be taken from the scap content RPM installed.)
+{: style="color:black; font-size: 80%;"}
+<pre>
+foreman-rake foreman_openscap:bulk_upload:default
+</pre>
+{: style="color:black; font-size: 80%;"}
+
+* Import the default Ansible Roles
+Satellite Web UI >> Configure >> Ansible >> Roles >> Import Ansible Roles >> Select the roles >> Update
+{: style="color:black; font-size: 80%;"}
+
+* Import Ansible Variables
+Satellite Web UI >> Configure >> Ansible >> Variables >> Import Ansible Variables from Satellite  >> Select all the Variables  >> Update
+{: style="color:black; font-size: 80%;"}
+
+
+* Make a SCAP policy with mark ansible as deployment options.
+Satellite Web UI >> Host >> Policy >> New policy >> Select Ansible as deployment options.
+{: style="color:black; font-size: 80%;"}
+
+* Assign the policy to the client system.
+Satellite Web UI >> Hosts >> Select the host(s) >> Select Action (drop down list) >> Assign compliance policy >> Select the policy.
+{: style="color:black; font-size: 80%;"}
+
+* Assign ansible roles to the client system.
+Satellite Web UI >> Hosts >> click on edit of the host. >> Ansible roles >> select the ansible role.
+{: style="color:black; font-size: 80%;"}
+
+* Run the Ansible Role to Configure the Scap Client on the Host
+Select the host >> Schedule Remote Job >> Run Ansible Roles. Once it passes, select Schedule Remote Job >> Run OpenSCAP scan.
+{: style="color:black; font-size: 80%;"}
+
 <h3 id="IDM">IDM</h3>
 
 <h4> List Users</h4>
