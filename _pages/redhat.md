@@ -72,6 +72,9 @@ header:
 * Port 9090 open on the firewall/securitygroup/satellite-server
 {: style="color:black; font-size: 80%;"}
 
+* Edit Administer >> System >> Remote Execution to match the environments users, passwords, and sudo passwords for running the job.
+{: style="color:black; font-size: 80%;"}
+
 * Copy the foreman SSH key from Satellite to each client using the ssh-copy-id command, OR any other method you wish.
 {: style="color:black; font-size: 80%;"}
 
