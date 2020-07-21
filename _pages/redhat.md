@@ -69,6 +69,17 @@ header:
 <h4 id="openscap">Setting Up OpenSCAP Scanning With Ansible In Satellite</h4>
 {: style="color:DodgerBlue;"}
 
+#### Pre-Requisites
+The following are required for Ansible to successfully run its roles on the remote host:
+<pre>
+•	Port 9090 on the satellite server is required to be open.
+•	Port 9090 on the AWS EC2 Security group for the satellite is required to be open.
+•	The satellite server must be able to SSH to the host system, so traffic sourced from satellite on port 22 must be whitelisted to the host system. 
+•	The host system must be registered to the satellite server.
+•	The host system must have the correct subscriptions to install the required packages for the foreman and openscap client
+</pre>
+
+
 * Port 9090 open on the firewall/securitygroup/satellite-server
 {: style="color:black; font-size: 80%;"}
 
